@@ -4,3 +4,5 @@ The code itself is not the best, and numerical errors occur in some edge-cases, 
 
 The included excel sheet includes some orbital parameters for a fictional star system. This is obviously not a very real-world applicable use-case, but demonstrates the code can work for any arrangement (eg. it can be used for transfers between satellites in cislunar orbits, transfers between Jovian moons, interplanetary transfers in our solar system, transfers within the Alpha Centauri system, etc.)
 
+### Callisto-Hops
+Callisto-Hops is a modified version of the same code that can use Lambert's problem to solve suborbital transfers, or 'hops', on bodies with little-to-no atmosphere. The code is currently set up with parameters modelling Callisto, one of Jupiter's moons, but could also model our own moon, or Mercury, or any other body with a very thin atmosphere. Suborbital transfers are a very efficient and fast way to get around these bodies, as there is no atmosphere to fly using aerodynamic lift, but conversely there is no drag to worry about.
